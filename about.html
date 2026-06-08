@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>關於我 | Dr.Xiao</title>
+  <meta name="description" content="關於 Dr.Xiao 的個人介紹">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+        document.body.classList.add('dark-mode');
+      }
+    })();
+  </script>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">Dr.Xiao</a>
+    <div class="nav-links">
+      <a href="index.html">首頁</a>
+      <a href="about.html">關於我</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="切換主題">
+        <span>🌙</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="about-container">
+    <div class="about-single">
+      <div class="about-avatar-wrapper avatar-left">
+        <img src="https://avatars.githubusercontent.com/u/53251242?s=400&amp;v=4" alt="Dr.Xiao" class="about-avatar">
+      </div>
+      <div class="about-content">
+        <h2>關於 Dr.Xiao</h2>
+        <div class="about-bio"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dr.Xiao 的個人網誌由 <a href="https://github.com" target="_blank">blog-gen</a> 所產生</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

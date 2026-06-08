@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "title": "Dr.Xiao",
+    "subtitle": "探討軟體工程、人工智慧與科技生活的個人網誌",
+    "author": "Dr.Xiao",
+    "bio": "",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/53251242?s=400&v=4",
+    "themeColor": "#656397",
+    "layoutType": "classic",
+    "avatarPosition": "left",
+    "aboutLayout": "single",
+    "customCss": "body {\n    filter: grayscale(10%)\n}",
+    "customJs": ""
+  },
+  "categories": [],
+  "articles": []
+}

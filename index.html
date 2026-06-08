@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr.Xiao</title>
+  <meta name="description" content="探討軟體工程、人工智慧與科技生活的個人網誌">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+        document.body.classList.add('dark-mode');
+      }
+    })();
+  </script>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">Dr.Xiao</a>
+    <div class="nav-links">
+      <a href="index.html">首頁</a>
+      <a href="about.html">關於我</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="切換主題">
+        <span>🌙</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="homepage-container">
+    <aside class="homepage-sidebar">
+      <h3 class="sidebar-title">所有文章</h3>
+      <div class="category-accordion">
+
+      </div>
+    </aside>
+
+    <div class="homepage-main-content homepage-layout-classic">
+      <div class="controls-container">
+        <input type="text" id="search-input" class="search-bar" placeholder="搜尋文章標題或摘要...">
+
+        <div class="category-badges">
+
+        </div>
+      </div>
+
+      <div class="articles-grid" id="articles-container">
+        <div class="empty-state">目前尚未發佈任何文章。</div>
+        <div id="empty-state" class="empty-state" style="display: none;">
+          找不到相符的文章。
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dr.Xiao 的個人網誌由 <a href="https://github.com" target="_blank">blog-gen</a> 所產生</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
