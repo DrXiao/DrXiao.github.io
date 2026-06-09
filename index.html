@@ -35,6 +35,20 @@
       <h3 class="sidebar-title">所有文章</h3>
       <div class="category-accordion">
 
+    <details class="category-accordion-item" >
+      <summary class="category-summary">
+        <span>其他 (1)</span>
+        <span class="accordion-icon">▼</span>
+      </summary>
+      <ul class="category-article-list">
+        <li>
+        <a href="articles/starting-point-my-blog-with-ai.html" class="category-article-link " title="起點：借助 AI 從零建立起個人網誌">
+          起點：借助 AI 從零建立起個人網誌
+        </a>
+      </li>
+      </ul>
+    </details>
+
       </div>
     </aside>
 
@@ -43,12 +57,25 @@
         <input type="text" id="search-input" class="search-bar" placeholder="搜尋文章標題或摘要...">
 
         <div class="category-badges">
-
+          <a href="index.html?category=misc" class="category-badge " data-category="misc">
+      其他
+    </a>
         </div>
       </div>
 
       <div class="articles-grid" id="articles-container">
-        <div class="empty-state">目前尚未發佈任何文章。</div>
+
+        <article class="card article-card" data-category="misc" data-title="起點：借助 AI 從零建立起個人網誌" data-summary="為了建立起個人網誌，我透過 AI 建立了 blog-gen 專案 -「個人網誌產生器」，一切從這裡開始">
+          <div class="article-meta">
+            <span>2026年6月9日</span>
+            <a href="index.html?category=misc" class="category-tag">其他</a>
+          </div>
+          <h2 class="article-title">
+            <a href="articles/starting-point-my-blog-with-ai.html">起點：借助 AI 從零建立起個人網誌</a>
+          </h2>
+          <p class="article-summary">為了建立起個人網誌，我透過 AI 建立了 blog-gen 專案 -「個人網誌產生器」，一切從這裡開始</p>
+          <a href="articles/starting-point-my-blog-with-ai.html" class="read-more">閱讀全文 →</a>
+        </article>
         <div id="empty-state" class="empty-state" style="display: none;">
           找不到相符的文章。
         </div>
