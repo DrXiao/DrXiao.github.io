@@ -1,15 +1,15 @@
 {
   "settings": {
     "title": "Dr.Xiao",
-    "subtitle": "探討軟體工程、人工智慧與科技生活的個人網誌",
+    "subtitle": "",
     "author": "Dr.Xiao",
-    "bio": "",
+    "bio": "畢業於國立高雄大學資訊工程學系（2022），目前在虹堡科技擔任韌體工程師。",
     "avatarUrl": "https://avatars.githubusercontent.com/u/53251242?s=400&v=4",
     "themeColor": "#656397",
     "layoutType": "classic",
-    "avatarPosition": "left",
+    "avatarPosition": "center",
     "aboutLayout": "single",
-    "customCss": "body {\n    filter: grayscale(10%)\n}",
+    "customCss": "",
     "customJs": ""
   },
   "categories": [
@@ -29,7 +29,7 @@
       "categoryId": "cat-b18yecd",
       "slug": "starting-point-my-blog-with-ai",
       "createdAt": "2026-06-09T13:35:24.203Z",
-      "updatedAt": "2026-06-09T15:46:40.804Z",
+      "updatedAt": "2026-06-10T13:14:22.921Z",
       "layout": {
         "sidebar": "left",
         "fontSize": "md",

@@ -723,6 +723,3 @@ body.dark-mode .empty-state {
   color: var(--text-muted-dark);
 }
 
-body {
-    filter: grayscale(10%)
-}
